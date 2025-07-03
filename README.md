@@ -1,6 +1,13 @@
-# ElevenLabs non official API (for special v3 alpha models)
 
-This project provides a Python non-official API for ElevenLabs. Supported Alpha v3 model voices.
+## How to use ElevenLabs API TTS  model alpha v3 without early access
+
+- Official API returns `403 model_access_denied` error:  
+  `"You do not have access to Eleven v3 (alpha). For early access please contact sales."`
+- This script bypasses that by mimicking browser requests (no API key or login needed).
+- Uses public web demo endpoint to access v3 voices.
+
+``Error: 403
+{"detail":{"status":"model_access_denied","message":"You do not have access to Eleven v3 (alpha). For early access please contact sales."}}``
 
 ## Note
 
