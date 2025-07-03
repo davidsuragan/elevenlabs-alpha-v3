@@ -9,6 +9,8 @@
 ``Error: 403
 {"detail":{"status":"model_access_denied","message":"You do not have access to Eleven v3 (alpha). For early access please contact sales."}}``
 
+See directory method_2/
+
 ## Note
 
 This repository contains two separate methods for working with ElevenLabs:
