@@ -1,4 +1,4 @@
-## How to use official ElevenLabs API TTS model Alpha v3 without early access
+## How to use the official ElevenLabs TTS model: Eleven V3 with early access
 
 - Official API returns a `403 model_access_denied` error:  
   `"You do not have access to Eleven v3 (alpha). For early access please contact sales."`
