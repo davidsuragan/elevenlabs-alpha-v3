@@ -1,4 +1,3 @@
-```markdown
 ## How to use official ElevenLabs API TTS model Alpha v3 without early access
 
 - Official API returns a `403 model_access_denied` error:  
@@ -43,4 +42,3 @@ Choose the method that best fits your needs.
 ---
 
 If you have any questions, feel free to ask!
-```
