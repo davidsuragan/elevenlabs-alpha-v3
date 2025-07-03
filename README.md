@@ -1,46 +1,15 @@
-# ElevenLabs + Playwright Voice Automation
+# ElevenLabs non official API (for special v3 alpha models)
 
-This project provides a Python non-official API for ElevenLabs using Playwright automation. Supported Alpha v3 model voices.
+This project provides a Python non-official API for ElevenLabs. Supported Alpha v3 model voices.
 
-## Available Voices
+## Note
 
-The following voices are supported:
+This repository contains two separate methods for working with ElevenLabs:
 
-1. Bradford
-2. Alice
-3. Alice
-4. Aria
-5. Bill
-6. Brian
-7. Callum
-8. Peter
-9. Arabella
-10. Joe Inglewood
-11. Bradford
-12. James - Husky & Engaging
-13. Nichalia Schwartz
+- `method_1/` — contains the first approach (see `elevenlabs_client.py`, `example.py`).
+- `method_2/` — contains the second approach (see `elevenlabs_tts.py`).
 
-## Setup
-
-1. Clone this repository.
-2. Install Playwright:
-
-```
-pip install playwright
-playwright install
-```
-3. Create a `.env` file in the project root with your ElevenLabs account credentials:
-
-```
-ELEVENLABS_EMAIL=your_email@example.com
-ELEVENLABS_PASSWORD=your_password
-```
-
-## Usage
-
-On first run, the browser opens because `headless=False` is set in the code. Later, you can set `headless=True` to run without opening a browser window.
-
-The `user_data_dir` directory is used to store your browser session and authentication data, so you don't need to log in every time.
+Choose the method that best fits your needs.
 
 ---
 
