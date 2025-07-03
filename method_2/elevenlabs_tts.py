@@ -9,6 +9,7 @@ JESSICA = "cgSgspJ2msm6clMCkdW9"
 # SAMMARA = "19STyYD15bswVz51nqLf"
 # SERGEANT = "DGzg6RaUqxGRTHSBjfgF"
 # SPUDS = "NOpBlnGInO9m6vDvFkFC"
+# your_voice_id = "This is Insane Bro!"
 
 # Text to synthesize
 

@@ -1,6 +1,12 @@
-# ElevenLabs TTS (method_2)
+# ElevenLabs TTS alpha-v3 (method_2)
 
-This script demonstrates a simple way to send a POST request to the ElevenLabs API for text-to-speech synthesis.
+This script demonstrates a simple way to send a POST request to the ElevenLabs API for text-to-speech synthesis. 
+
+- This script uses the free demo version of the elevenlabs.io
+- ElevenLabs provides limited access to its API for testing and non-commercial use without requiring an API key.
+- You can try the demo without registration, but expect possible rate limits and temporary restrictions.
+- You cab set many voice_id!
+
 
 ## Usage
 
