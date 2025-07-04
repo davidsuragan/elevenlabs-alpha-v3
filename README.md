@@ -1,44 +1,60 @@
-## How to use the official ElevenLabs TTS model: Eleven V3 with early access
+## How to use the official ElevenLabs TTS model: Eleven V3 with early access?
 
-- Official API returns a `403 model_access_denied` error:  
-  `"You do not have access to Eleven v3 (alpha). For early access please contact sales."`
-- This script bypasses that by mimicking browser behavior — no API key or login required.
-- It uses the public web demo endpoint to access v3 voices.
+Official API returns a `403 model_access_denied` error:
+`"You do not have access to Eleven v3 (alpha). For early access please contact sales."`
 
-```
+This script bypasses that by mimicking browser behavior — no API key or login required.
+It uses the official API endpoint with different approaches.
 
-Error: 403
-{"detail":{"status":"model\_access\_denied","message":"You do not have access to Eleven v3 (alpha). For early access please contact sales."}}
+---
 
-```
+## Available Methods
 
-➡️ See the `method_2/` directory for a working example using the browser-based approach.
+### method\_1/ — Official API with Firebase login (**recommended**)
 
-## Features
+Uses real Firebase login (email + password) to retrieve Bearer token.
+✅ Fully stable
+✅ Uses official ElevenLabs infrastructure
+✅ Supported all eleven-v3 voices
+✅ fast
+🔐 Requires ElevenLabs account with login/password
 
-- ✅ Works without ElevenLabs API key
-- ✅ Supports Alpha v3 voices
-- ✅ No login or account required
-⚠️ May stop working if too many unauthenticated requests are sent from the same IP (rate limit).
+### method\_2/ — Official API with browser headers
 
-## Note
+Mimics browser requests to access v3 voices without login.
+✅ Works without API key or login
+✅ Supported all eleven-v3 voices
+✅ fast
+⚠️ May break or be rate-limited
+👍 Good for quick tests
 
-This repository contains two separate methods for working with ElevenLabs:
+### method\_3/ — Unofficial, complex
 
-- `method_1/` — first approach using Playwright (`elevenlabs_client.py`, `example.py`)
-- `method_2/` — second approach simulating browser demo behavior and official API (`elevenlabs_tts.py`)
+Uses Playwright to simulate full browser session.
+❌ Not stable
+❌ Not recommended
+❌ slowly
 
-Choose the method that best fits your needs.
+---
+
+## Features Summary
+
+| Method    | Type          | API Key    | Login | Stability | Recommended | Voices Supported                          |
+| --------- | ------------- | ---------- | ----- | --------- | ----------- | ----------------------------------------- |
+| method\_1 | Official      | ✅ Firebase | ✅     | ✅ High    | ✅ Yes       | ✅ All official voices (incl. `eleven_v3`) |
+| method\_2 | Semi-Official | ❌          | ❌     | ⚠️ Medium | ⚠️ Partial  | ✅ Alpha v3 demo voices                    |
+| method\_3 | Unofficial    | ❌          | ✅     | ❌ Low     | ❌ No        | ⚠️ Limited via browser UI                 |
 
 ---
 
 ## Credit
 
-- [Telegram](https://t.me/david667s)
-- Gemini
-- GPT
-- browser-user agent technique
+* [Telegram](https://t.me/david667s)
+* Gemini
+* GPT
+* Firebase REST API
+* browser header spoofing technique
 
 ---
 
-If you have any questions, feel free to ask!
+If you have questions, feel free to reach out.

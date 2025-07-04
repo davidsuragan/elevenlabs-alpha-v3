@@ -1,63 +1,68 @@
-# ElevenLabs + Playwright Voice Automation
+# ElevenLabs TTS V3 (method - 1)
 
-This project provides a Python non-official API for ElevenLabs using Playwright automation. Supported Alpha v3 model voices.
+This method uses your ElevenLabs **email and password** to authenticate via Firebase and retrieve a Bearer token.  
+It provides full access to the restricted **`eleven_v3`** voices using the **official API endpoint**.
 
-## Available Voices
+---
 
-The following voices are supported:
+## ✅ Features
 
-1. Bradford
-2. Alice
-3. Alice
-4. Aria
-5. Bill
-6. Brian
-7. Callum
-8. Peter
-9. Arabella
-10. Joe Inglewood
-11. Bradford
-12. James - Husky & Engaging
-13. Nichalia Schwartz
+- ✅ Official API access via Firebase authentication
+- ✅ No need to simulate browser behavior
+- ✅ Works reliably with `eleven_v3` model
+- ✅ Supports long-form text and multiple voices
+- ⚠️ Requires login and Firebase API key
 
-## Setup
+---
 
-1. Clone this repository.
-2. Install Playwright:
+## 🔐 .env Configuration
+
+Create a `.env` file inside `method_1/` directory with the following content:
 
 ```
-pip install playwright
-playwright install
-```
-3. Create a `.env` file in the project root with your ElevenLabs account credentials:
+
+ELEVENLABS\_EMAIL=[your\_email@example.com](mailto:your_email@example.com)
+ELEVENLABS\_PASSWORD=your\_password
+FIREBASE\_API\_KEY=your\_firebase\_api\_key\_here
 
 ```
-ELEVENLABS_EMAIL=your_email@example.com
-ELEVENLABS_PASSWORD=your_password
+
+---
+
+## 📎 How to get the Firebase API key
+
+1. Visit [https://elevenlabs.io](https://elevenlabs.io) and open **Developer Tools**  
+2. Go to the **Network** tab and refresh the page  
+3. Look for a request to `identitytoolkit.googleapis.com`  
+4. Copy the `key=...` value from the request URL
+
+**Example:**
+
+<p align="center">
+  <img src="get_key.jpg" width="600">
+</p>
+
+---
+
+## 🧪 How it works
+
+This script authenticates using Firebase's `signInWithPassword` endpoint  
+and uses the returned `idToken` as a Bearer token to send requests to:
+
 ```
 
-## Usage
+[https://api.us.elevenlabs.io/v1/text-to-dialogue/stream](https://api.us.elevenlabs.io/v1/text-to-dialogue/stream)
 
-On first run, the browser opens because `headless=False` is set in the code. Later, you can set `headless=True` to run without opening a browser window.
+```
 
-The `user_data_dir` directory is used to store your browser session and authentication data, so you don't need to log in every time.
-
-## Note
-
-This repository contains two separate methods for working with ElevenLabs:
-
-- `method_1/` — contains the first approach (see `elevenlabs_client.py`, `example.py`).
-- `method_2/` — contains the second approach (see `elevenlabs_tts.py`).
-
-Choose the method that best fits your needs.
+No browser emulation or Playwright needed.
 
 ---
 
 ## Credit
 
-- [t.me/david667s](https://t.me/david667s)
-- Gemini
-- GPT
-- browser-use agent
+- [t.me/david667s](https://t.me/david667s)  
+- Gemini  
+- GPT  
 
-If you have any questions, feel free to ask!
+---

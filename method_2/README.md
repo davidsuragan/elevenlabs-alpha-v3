@@ -1,4 +1,4 @@
-# ElevenLabs TTS alpha-v3 (method_2)
+# ElevenLabs TTS V3 (method 2)
 
 This script demonstrates a simple way to send a POST request to the ElevenLabs API for text-to-speech synthesis. 
 
@@ -31,5 +31,3 @@ This script demonstrates a simple way to send a POST request to the ElevenLabs A
 - [t.me/david667s](https://t.me/david667s)
 - Gemini
 - GPT
-
-If you have any questions, feel free to ask!
