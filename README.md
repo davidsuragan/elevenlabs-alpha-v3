@@ -11,7 +11,6 @@ It uses the official API endpoint with different approaches.
 ## Available Methods
 
 ### method - 1 — Official API with Firebase login (**recommended**)
-
 Uses real Firebase login (email + password) to retrieve Bearer token.
 
 ✅ Fully stable  
@@ -21,8 +20,8 @@ Uses real Firebase login (email + password) to retrieve Bearer token.
 🔐 Requires ElevenLabs account with login/password  
 
 ### method - 2 — Official API with browser headers
-
 Mimics browser requests to access v3 voices without login.  
+
 ✅ Works without API key or login  
 ✅ Supports all eleven-v3 voices  
 ✅ Fast  
@@ -30,7 +29,6 @@ Mimics browser requests to access v3 voices without login.
 👍 Good for quick tests  
 
 ### method - 3  — Unofficial, complex
-
 Uses Playwright to simulate full browser session.
 ❌ Not stable
 ❌ Not recommended
