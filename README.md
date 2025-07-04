@@ -46,10 +46,6 @@ Uses Playwright to simulate full browser session.
 
 ---
 
-Мынаны markdown стилінде, таза әрі тартымды етіп көрсетейін, Дәке:
-
----
-
 ## 🎙️ Voices and `voice_id`
 
 You can freely use any `voice_id` supported by ElevenLabs.
