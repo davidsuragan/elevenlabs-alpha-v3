@@ -41,10 +41,22 @@ Uses Playwright to simulate full browser session.
 | Method    | Type          | API Key    | Login | Stability | Recommended | Voices Supported                          |
 | --------- | ------------- | ---------- | ----- | --------- | ----------- | ----------------------------------------- |
 | method\_1 | Official      | ✅ Firebase | ✅     | ✅ High    | ✅ Yes       | ✅ All official voices (incl. `eleven_v3`) |
-| method\_2 | Semi-Official | ❌          | ❌     | ⚠️ Medium | ⚠️ Partial  | ✅ ✅ All official voices (incl. `eleven_v3`)voices                    |
+| method\_2 | Semi-Official | ❌          | ❌     | ⚠️ Medium | ⚠️ Partial  | ✅ All official voices (incl. `eleven_v3`)voices                    |
 | method\_3 | Unofficial    | ❌          | ✅     | ❌ Low     | ❌ No        | ⚠️ Limited via browser UI                 |
 
 ---
+
+## 🎙️ Voices and voice_id
+You can freely use any voice_id supported by ElevenLabs.
+✅ Just copy the voice_id and use it — no extra setup needed.
+
+`` voice_id examples
+JESSICA = "cgSgspJ2msm6clMCkdW9"
+LIAM = "TX3LPaxmHKxFdv7VOQHJ"
+ANNOUNCER = "gU0LNdkMOQCOrPrwtbee"
+SAMMARA = "19STyYD15bswVz51nqLf"
+SERGEANT = "DGzg6RaUqxGRTHSBjfgF"
+SPUDS = "NOpBlnGInO9m6vDvFkFC"``
 
 ## Credit
 
