@@ -19,6 +19,7 @@ Uses real Firebase login (email + password) to retrieve Bearer token.
 ✅ Fast  
 🔐 Requires ElevenLabs account with login/password  
 👇method - 1
+
 [SCRIPT](https://github.com/dauitsuragan002/elevenlabs-alpha-v3/tree/main/method_1)
 
 ### method - 2 — Official API with browser headers
@@ -31,6 +32,7 @@ Mimics browser requests to access v3 voices without login.
 👍 Good for quick tests  
 
 👇method - 2
+
 [SCRIPT](https://github.com/dauitsuragan002/elevenlabs-alpha-v3/tree/main/method_2)
 
 ### ⚙️ Method 3 — Unofficial, Complex
@@ -43,6 +45,7 @@ Mimics browser requests to access v3 voices without login.
 
 ---
 👇method - 3
+
 [SCRIPT](https://github.com/dauitsuragan002/elevenlabs-alpha-v3/tree/main/method_3)
 
 ## Features Summary
