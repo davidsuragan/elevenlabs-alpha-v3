@@ -50,7 +50,13 @@ Uses Playwright to simulate full browser session.
 You can freely use any voice_id supported by ElevenLabs.
 ✅ Just copy the voice_id and use it — no extra setup needed.
 
-<pre> ```python # voice_id examples JESSICA = "cgSgspJ2msm6clMCkdW9" LIAM = "TX3LPaxmHKxFdv7VOQHJ" ANNOUNCER = "gU0LNdkMOQCOrPrwtbee" SAMMARA = "19STyYD15bswVz51nqLf" SERGEANT = "DGzg6RaUqxGRTHSBjfgF" SPUDS = "NOpBlnGInO9m6vDvFkFC" ``` </pre>
+`` voice_id examples
+JESSICA = "cgSgspJ2msm6clMCkdW9"
+LIAM = "TX3LPaxmHKxFdv7VOQHJ"
+ANNOUNCER = "gU0LNdkMOQCOrPrwtbee"
+SAMMARA = "19STyYD15bswVz51nqLf"
+SERGEANT = "DGzg6RaUqxGRTHSBjfgF"
+SPUDS = "NOpBlnGInO9m6vDvFkFC"``
 
 ## Credit
 
