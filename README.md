@@ -28,11 +28,15 @@ Mimics browser requests to access v3 voices without login.
 ⚠️ May break or be rate-limited  
 👍 Good for quick tests  
 
-### method - 3  — Unofficial, complex
-Uses Playwright to simulate full browser session.
-❌ Not stable
-❌ Not recommended
-❌ slowly
+---
+
+### ⚙️ Method 3 — Unofficial, Complex
+
+> Uses **Playwright** to simulate a full browser session.
+
+❌ **Not stable**
+❌ **Not recommended**
+❌ **Slow**
 
 ---
 
