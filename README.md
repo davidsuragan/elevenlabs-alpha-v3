@@ -41,7 +41,7 @@ Uses Playwright to simulate full browser session.
 | Method    | Type          | API Key    | Login | Stability | Recommended | Voices Supported                          |
 | --------- | ------------- | ---------- | ----- | --------- | ----------- | ----------------------------------------- |
 | method\_1 | Official      | ✅ Firebase | ✅     | ✅ High    | ✅ Yes       | ✅ All official voices (incl. `eleven_v3`) |
-| method\_2 | Semi-Official | ❌          | ❌     | ⚠️ Medium | ⚠️ Partial  | ✅ Alpha v3 demo voices                    |
+| method\_2 | Semi-Official | ❌          | ❌     | ⚠️ Medium | ⚠️ Partial  | ✅ ✅ All official voices (incl. `eleven_v3`)voices                    |
 | method\_3 | Unofficial    | ❌          | ✅     | ❌ Low     | ❌ No        | ⚠️ Limited via browser UI                 |
 
 ---
