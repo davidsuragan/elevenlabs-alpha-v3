@@ -21,9 +21,9 @@ Create a `.env` file inside `method_1/` directory with the following content:
 
 ```
 
-ELEVENLABS\_EMAIL=[your\_email@example.com](mailto:your_email@example.com)
-ELEVENLABS\_PASSWORD=your\_password
-FIREBASE\_API\_KEY=your\_firebase\_api\_key\_here
+ELEVENLABS_EMAIL=your_email
+ELEVENLABS_PASSWORD=your_password
+FIREBASE_API_KEY=apiKey
 
 ```
 
