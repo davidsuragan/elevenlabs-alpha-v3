@@ -32,9 +32,11 @@ FIREBASE\_API\_KEY=your\_firebase\_api\_key\_here
 ## 📎 How to get the Firebase API key
 
 1. Visit [https://elevenlabs.io](https://elevenlabs.io) and open **Developer Tools**  
-2. Go to the **Network** tab and refresh the page  
-3. Look for a request to `identitytoolkit.googleapis.com`  
-4. Copy the `key=...` value from the request URL
+2. Go to the **Application** tab and refresh the page  
+3. Storage
+4. https://elevenlabs.io/
+4. firebase:authUser:
+5. Copy the `apiKey: "AIz-------------------Lys"`
 
 **Example:**
 
