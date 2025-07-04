@@ -13,6 +13,7 @@ It uses the official API endpoint with different approaches.
 ### method - 1 — Official API with Firebase login (**recommended**)
 
 Uses real Firebase login (email + password) to retrieve Bearer token.
+
 ✅ Fully stable  
 ✅ Uses official ElevenLabs infrastructure  
 ✅ Supports all eleven-v3 voices  
