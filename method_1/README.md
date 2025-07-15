@@ -63,7 +63,7 @@ No browser emulation or Playwright needed.
 
 ## Credit
 
-- [t.me/david667s](https://t.me/david667s)  
+- [David Suragan](https://t.me/david667s)  
 - Gemini  
 - GPT  
 
