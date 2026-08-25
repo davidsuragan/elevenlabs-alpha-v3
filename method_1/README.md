@@ -53,7 +53,7 @@ and uses the returned `idToken` as a Bearer token to send requests to:
 
 ```
 
-[https://api.us.elevenlabs.io/v1/text-to-dialogue/stream](https://api.us.elevenlabs.io/v1/text-to-dialogue/stream)
+https://api.us.elevenlabs.io/v1/text-to-dialogue/stream
 
 ```
 
@@ -63,7 +63,7 @@ No browser emulation or Playwright needed.
 
 ## Credit
 
-- [t.me/david667s](https://t.me/david667s)  
+- [David Suragan](https://t.me/david667s)  
 - Gemini  
 - GPT  
 
